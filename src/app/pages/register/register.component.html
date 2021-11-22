@@ -5,38 +5,37 @@
 <!--HERO DEL REGISTRO--> 
             <img class="register-hero" src="../../../assets/images/Register.png" alt="Pareja registrandose">
 <!--FORMULARIO DE REGISTRO--> 
-            <div class="form-fields">
+            <form class="form-fields" [formGroup]="formularioRegistro" autocomplete="off">
                 <mat-form-field>
                     <mat-label> Nombre </mat-label>
-                    <input matInput placeholder="Nombre" required>
-                </mat-form-field>
-
-                <mat-form-field>
-                    <mat-label> Apeliido </mat-label>
-                    <input matInput placeholder="Apellido" required>
+                    <input matInput formControlName="fullName" placeholder="Nombre" required>
+                    <mat-error>Este campo es obligatorio</mat-error>
                 </mat-form-field>
 
                 <mat-form-field>
                     <mat-label> Email </mat-label>
-                    <input matInput placeholder="ejemplo@hotmail.com" [formControl]="email" required>
+                    <input matInput placeholder="ejemplo@hotmail.com" formControlName="email" required>
                     <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
                 </mat-form-field>
 
                 <mat-form-field>
                     <mat-label> Contraseña </mat-label>
-                    <input type="password" matInput placeholder="Contraseña" required>
+                    <input type="password" matInput formControlName="password" placeholder="Contraseña" required>
+                    <mat-error>Este campo es obligatorio</mat-error>
                 </mat-form-field>
 
                 <mat-form-field>
                     <mat-label> Dirección </mat-label>
-                    <input matInput placeholder="Dirección" required>
+                    <input matInput formControlName="address" placeholder="Dirección" required>
+                    <mat-error>Este campo es obligatorio</mat-error>
                 </mat-form-field>
 
                 <mat-form-field>
                     <mat-label> Celular </mat-label>
-                    <input type="number" matInput placeholder="Celular" required>
+                    <input matInput formControlName="cellPhone" placeholder="Celular" type="number" required>
+                    <mat-error>Este campo es obligatorio</mat-error>
                 </mat-form-field>
-                <button mat-raised-button style="background-color:#E73651">Registrarse</button>
-            </div> 
+                <button [disabled]="!formularioRegistro.valid" mat-raised-button style="background-color:#E73651">Registrarse</button>
+            </form> 
         </div>
 </body>

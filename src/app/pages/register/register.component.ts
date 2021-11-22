@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormControl, Validators} from '@angular/forms';
+import {FormControl, FormGroup, Validators} from '@angular/forms';
 
 @Component({
   selector: 'app-register',
@@ -7,6 +7,15 @@ import {FormControl, Validators} from '@angular/forms';
   styleUrls: ['./register.component.sass']
 })
 export class RegisterComponent implements OnInit {
+
+  formularioRegistro = new FormGroup({
+    fullName : new FormControl('', Validators.required),
+    email : new FormControl('', [Validators.required, Validators.email]),
+    password : new FormControl('', Validators.required),
+    address : new FormControl('', Validators.required),
+    cellPhone : new FormControl('', Validators.required)
+  })
+
 
   constructor() { }
 
