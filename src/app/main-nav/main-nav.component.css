@@ -1,3 +1,19 @@
+@media (max-width:959px){
+  .hidebtn {
+    visibility: hidden;
+  }
+}
+
+@media (max-width:408px){
+  .register-btn, .login-btn {
+    visibility: hidden;
+  }
+}
+
+.tool-bar-clip{
+  overflow: hidden;
+}
+
 .sidenav-container {
   height: 100%;
 }
@@ -25,12 +41,25 @@
 }
 
 .mat-toolbar a{
-  display: inline-block;
   margin: 0 10px;
 }
 
-@media (max-width:959px){
-  .hidebtn {
-    visibility: hidden;
-  }
+.toolbar-top{
+  color: #1B294B;
+  background-color: #BCC5F0;
+}
+
+.register-btn{
+  background-color: #E73651 ;
+}
+
+.login-btn{
+  color: #1B294B;
+  border-color: #1B294B;
+}
+
+.navbar-logo{
+  max-height: 50px;
+  margin-top: 10px;
+  color: #1B294B;
 }

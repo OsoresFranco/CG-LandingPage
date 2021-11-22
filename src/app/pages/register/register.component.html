@@ -1,0 +1,42 @@
+<body class="styler">
+    <h1 class="font-styler">Registro<br><span style="color: #E73651; font-weight: bold;">Todo It</span></h1>
+
+        <div class="register-container">
+<!--HERO DEL REGISTRO--> 
+            <img class="register-hero" src="../../../assets/images/Register.png" alt="Pareja registrandose">
+<!--FORMULARIO DE REGISTRO--> 
+            <div class="form-fields">
+                <mat-form-field>
+                    <mat-label> Nombre </mat-label>
+                    <input matInput placeholder="Nombre" required>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label> Apeliido </mat-label>
+                    <input matInput placeholder="Apellido" required>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label> Email </mat-label>
+                    <input matInput placeholder="ejemplo@hotmail.com" [formControl]="email" required>
+                    <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label> Contraseña </mat-label>
+                    <input type="password" matInput placeholder="Contraseña" required>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label> Dirección </mat-label>
+                    <input matInput placeholder="Dirección" required>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <mat-label> Celular </mat-label>
+                    <input type="number" matInput placeholder="Celular" required>
+                </mat-form-field>
+                <button mat-raised-button style="background-color:#E73651">Registrarse</button>
+            </div> 
+        </div>
+</body>
