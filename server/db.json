@@ -1,0 +1,491 @@
+{
+  "Users": [
+    {
+      "id": 1,
+      "email": "administrador@gmail.com",
+      "fullName": "Pedro Bustos Romero",
+      "address": "Unión, San luis, Argentina",
+      "cellPhone": "+5691112345678",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": "Administrador del sistema",
+      "password": "123456",
+      "vehicle": null,
+      "rol": {
+        "id": 1,
+        "name": "Administrador",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 2,
+      "email": "hola@gmail.com",
+      "fullName": "sadsadsa",
+      "address": "asdasd",
+      "cellPhone": "asdasd",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": null,
+      "password": "asdsa",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 3,
+      "email": "kevinmunozmende@gmail.com",
+      "fullName": "kevincito",
+      "address": "calle falsa 123",
+      "cellPhone": "asdasd493123",
+      "isAccepted": true,
+      "isDeleted": true,
+      "observations": null,
+      "password": "k4956623",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 4,
+      "email": "adasd@gor.com",
+      "fullName": "dsad",
+      "address": "adsa",
+      "cellPhone": "asdas",
+      "isAccepted": false,
+      "isDeleted": true,
+      "observations": null,
+      "password": "adas",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 5,
+      "email": "JAJA@gmail.com",
+      "fullName": "hola",
+      "address": "123",
+      "cellPhone": "123456789",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "asdsa",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 6,
+      "email": "asdsa@gmail,com",
+      "fullName": "asdsad",
+      "address": "",
+      "cellPhone": "",
+      "isAccepted": false,
+      "isDeleted": true,
+      "observations": null,
+      "password": "",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 7,
+      "email": "asdsa@gmail.com",
+      "fullName": "asdsad",
+      "address": "123456",
+      "cellPhone": "123456",
+      "isAccepted": false,
+      "isDeleted": true,
+      "observations": null,
+      "password": "123456",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 8,
+      "email": "asds@gmail.com",
+      "fullName": "asdsad",
+      "address": "123456",
+      "cellPhone": "123456789",
+      "isAccepted": false,
+      "isDeleted": true,
+      "observations": null,
+      "password": "asdsa",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 9,
+      "email": "jajaj@gmail.com",
+      "fullName": "asdsa",
+      "address": "jajaj@gmail.com",
+      "cellPhone": "jajaj@gmail.com",
+      "isAccepted": false,
+      "isDeleted": true,
+      "observations": null,
+      "password": "jajaj@gmail.com",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 10,
+      "email": "adios@gmail.com",
+      "fullName": "adios@gmail.com",
+      "address": "adios@gmail.com",
+      "cellPhone": "adios@gmail.com",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "adios@gmail.com",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 11,
+      "email": "davidfc05@gmail.com",
+      "fullName": "David Fernando Cosio",
+      "address": "Larrea 636",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 12,
+      "email": "david.cosio@fi.unju.edu.ar",
+      "fullName": "David Fernando Cosio",
+      "address": "Larrea 636",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 13,
+      "email": "dafer@gmail.com",
+      "fullName": "Fernando",
+      "address": "Direccion",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 14,
+      "email": "kevin@gmail.com",
+      "fullName": "Kevin",
+      "address": "La Plata",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 15,
+      "email": "jose@gmail.com",
+      "fullName": "Jose",
+      "address": "Cordoba 123",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 16,
+      "email": "camila@gmail.com",
+      "fullName": "Camila Domato",
+      "address": "CABA",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 17,
+      "email": "branko@gmail.com",
+      "fullName": "Branko ",
+      "address": "CABA",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 18,
+      "email": "carla@gmail.com",
+      "fullName": "Carla",
+      "address": "CABA",
+      "cellPhone": "+5493884642843",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 19,
+      "email": "admin@gmail.com",
+      "fullName": "Kevin Muñoz",
+      "address": "123456",
+      "cellPhone": "123456",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": "string",
+      "password": "123456",
+      "vehicle": {
+        "id": 1,
+        "name": "Bicicleta",
+        "isDeleted": 0
+      },
+      "rol": {
+        "id": 1,
+        "name": "Administrador",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 20,
+      "email": "roberto@gmail.com",
+      "fullName": "Roberto",
+      "address": "123456",
+      "cellPhone": "123456",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": "string",
+      "password": "123456",
+      "vehicle": {
+        "id": 1,
+        "name": "Bicicleta",
+        "isDeleted": 0
+      },
+      "rol": {
+        "id": 1,
+        "name": "Administrador",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 21,
+      "email": "manolo@gmail.com",
+      "fullName": "Manolo",
+      "address": "123456",
+      "cellPhone": "123456",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123456",
+      "vehicle": {
+        "id": 2,
+        "name": "Motocicleta",
+        "isDeleted": 0
+      },
+      "rol": {
+        "id": 2,
+        "name": "Cadete",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 22,
+      "email": "pao@gmail.com",
+      "fullName": "Pao",
+      "address": "Larrea",
+      "cellPhone": "+5493884642843",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "123",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 23,
+      "email": "a.zaccaro42@gmail.com",
+      "fullName": "Jose Antonio Lopez Zaccaro",
+      "address": "Avenida Córdoba 1055",
+      "cellPhone": "03541529945",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": null,
+      "password": "jose123",
+      "vehicle": {
+        "id": 1,
+        "name": "Bicicleta",
+        "isDeleted": 0
+      },
+      "rol": {
+        "id": 1,
+        "name": "Administrador",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 24,
+      "email": "josee123@gmail.com",
+      "fullName": "Jose Cadete",
+      "address": "direccion123",
+      "cellPhone": "phone123",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": "muy pro el cadete",
+      "password": "123",
+      "vehicle": {
+        "id": 2,
+        "name": "Motocicleta",
+        "isDeleted": 0
+      },
+      "rol": {
+        "id": 2,
+        "name": "Cadete",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 25,
+      "email": "string",
+      "fullName": "string",
+      "address": "string",
+      "cellPhone": "string",
+      "isAccepted": false,
+      "isDeleted": false,
+      "observations": null,
+      "password": "string",
+      "vehicle": null,
+      "rol": {
+        "id": 3,
+        "name": "Usuario final",
+        "isDeleted": 0
+      }
+    },
+    {
+      "id": 26,
+      "email": "branko@mail.com",
+      "fullName": "Branko Haberkon",
+      "address": "string",
+      "cellPhone": "string",
+      "isAccepted": true,
+      "isDeleted": false,
+      "observations": "string",
+      "password": "1234",
+      "vehicle": null,
+      "rol": {
+        "id": 2,
+        "name": "Cadete",
+        "isDeleted": 0
+      }
+    },
+    {
+      "email": "franco_osores@hotmail.com",
+      "password": "iselacreyo",
+      "fullName": "Franco",
+      "address": "Diaz Velez 200",
+      "cellPhone": "38112345678",
+      "id": 27
+    }
+  ],
+  "Roles": [
+    {
+      "id": 1,
+      "name": "Administrador",
+      "isDeleted": 0
+    },
+    {
+      "id": 2,
+      "name": "Cadete",
+      "isDeleted": 0
+    },
+    {
+      "id": 3,
+      "name": "Usuario final",
+      "isDeleted": 0
+    }
+  ]
+}

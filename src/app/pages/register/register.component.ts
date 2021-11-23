@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
+import { User } from 'src/app/models/user';
+import { SignupService } from 'src/app/services/signup.service';
 
 @Component({
   selector: 'app-register',
@@ -17,7 +19,15 @@ export class RegisterComponent implements OnInit {
   })
 
 
-  constructor() { }
+  constructor( private signupservice:SignupService) { }
+
+  user1:User = {
+    fullName: this.formularioRegistro.value.fullName,
+    email: this.formularioRegistro.value.email,
+    password: this.formularioRegistro.value.password,
+    address: this.formularioRegistro.value.address,
+    cellPhone: this.formularioRegistro.value.cellPhone
+  }
 
   ngOnInit(): void {
   }
@@ -32,4 +42,14 @@ export class RegisterComponent implements OnInit {
     return this.email.hasError('email') ? 'Not a valid email' : '';
   }
 // Fin de Función Validador Email
+
+  registrarUser():void{
+    this.user1 = this.formularioRegistro.value;
+    console.log(this.user1)
+    this.signupservice.save(this.user1).subscribe( resp => {
+      console.log(resp)
+    });
+    this.formularioRegistro.reset()
+  }
+  
 }
