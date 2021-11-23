@@ -16,6 +16,9 @@ import { InicioComponent } from './pages/inicio/inicio.component';
 import { RegisterComponent } from './pages/register/register.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { LoginComponent } from './pages/login/login.component';
+import { FooterComponent } from './components/footer/footer.component';
+
+
 
 @NgModule({
   declarations: [
@@ -23,7 +26,8 @@ import { LoginComponent } from './pages/login/login.component';
     MainNavComponent,
     InicioComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
