@@ -469,6 +469,46 @@
       "address": "Diaz Velez 200",
       "cellPhone": "38112345678",
       "id": 27
+    },
+    {
+      "fullName": "Mario",
+      "email": "yo@yo.com",
+      "password": "CNUFUHGDY",
+      "address": "diaz velez 400",
+      "cellPhone": 3813344558,
+      "id": 28
+    },
+    {
+      "fullName": "Franco Osores",
+      "email": "yo@hotmail.com",
+      "password": "Ceteunndh987",
+      "address": "La tablada 14",
+      "cellPhone": 38144578985,
+      "id": 29
+    },
+    {
+      "fullName": "Maria Sorlozano",
+      "email": "maria@hotmail.com",
+      "password": "NJHtf65gd",
+      "address": "Los arboles 456",
+      "cellPhone": 38144587455,
+      "id": 30
+    },
+    {
+      "fullName": "Pepita Pistolera",
+      "email": "yo@gmail.com",
+      "password": "Nowayhome",
+      "address": "Elm Street 456",
+      "cellPhone": 387445898,
+      "id": 31
+    },
+    {
+      "fullName": "franco Osores",
+      "email": "yo@yo.com",
+      "password": "dfksdjglkjsdgl",
+      "address": "njkfndjnbgdf 5464",
+      "cellPhone": 56456865648,
+      "id": 32
     }
   ],
   "Roles": [

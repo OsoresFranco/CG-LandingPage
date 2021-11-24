@@ -35,7 +35,7 @@
                     <input matInput formControlName="cellPhone" placeholder="Celular" type="number" required>
                     <mat-error>Este campo es obligatorio</mat-error>
                 </mat-form-field>
-                <button [disabled]="!formularioRegistro.valid" mat-raised-button (click)="registrarUser()" style="background-color:#E73651">Registrarse</button>
+                <button [disabled]="!formularioRegistro.valid" mat-raised-button (click)="registrarUser()" routerLink="/inicio" style="background-color:#E73651">Registrarse</button>
             </form> 
         </div>
         <app-footer></app-footer>

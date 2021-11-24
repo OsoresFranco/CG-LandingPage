@@ -1,4 +1,5 @@
 <!--Contenido de barra Lateral--> 
+<header>
 <mat-sidenav-container class="sidenav-container">
   <mat-sidenav #drawer class="sidenav" 
       [ngClass]="{hidden: !(isHandset$ | async)!}"
@@ -28,8 +29,9 @@
       <div class="spacer"></div>
       <a class="hidebtn" routerLink="/inicio" mat-button>Inicio</a>
       <a class="hidebtn" routerLink="/login" mat-stroked-button class="login-btn">Login</a>
-      <a mat-raised-button routerLink="/register" class="register-btn">Registrarse</a>
+      <a mat-raised-button routerLink="/register" class="register-btn">Registro</a>
     </mat-toolbar>
     <ng-content></ng-content>
   </mat-sidenav-content>
 </mat-sidenav-container>
+</header>

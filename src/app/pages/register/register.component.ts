@@ -22,11 +22,11 @@ export class RegisterComponent implements OnInit {
   constructor( private signupservice:SignupService) { }
 
   user1:User = {
-    fullName: this.formularioRegistro.value.fullName,
-    email: this.formularioRegistro.value.email,
-    password: this.formularioRegistro.value.password,
-    address: this.formularioRegistro.value.address,
-    cellPhone: this.formularioRegistro.value.cellPhone
+    fullName: '',
+    email: '',
+    password: '',
+    address: '',
+    cellPhone: ''
   }
 
   ngOnInit(): void {
@@ -50,6 +50,7 @@ export class RegisterComponent implements OnInit {
       console.log(resp)
     });
     this.formularioRegistro.reset()
+    alert("Bienvenido "+ this.user1.fullName)
   }
   
 }
