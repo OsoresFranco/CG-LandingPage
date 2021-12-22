@@ -15,9 +15,9 @@ import { MatListModule } from '@angular/material/list';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { RegisterComponent } from './pages/register/register.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
-import { LoginComponent } from './pages/login/login.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 
 
 
@@ -27,7 +27,6 @@ import { HttpClientModule } from '@angular/common/http';
     MainNavComponent,
     InicioComponent,
     RegisterComponent,
-    LoginComponent,
     FooterComponent,
   ],
   imports: [
@@ -44,6 +43,7 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    SweetAlert2Module
   ],
   providers: [],
   bootstrap: [AppComponent]

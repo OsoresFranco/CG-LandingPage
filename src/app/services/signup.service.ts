@@ -13,8 +13,7 @@ export class SignupService {
   }
 
   save(user:User): Observable<User> {
-    console.log("Save");
-    return this.http.post<User>('http://localhost:3000/api/Alta/', user);
+    return this.http.post<User>('api/Alta/', user);
   }
 
 }

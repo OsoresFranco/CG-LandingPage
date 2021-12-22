@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import {FormControl, FormGroup, Validators} from '@angular/forms';
 import { User } from 'src/app/models/user';
 import { SignupService } from 'src/app/services/signup.service';
+import Swal from 'sweetalert2';
+import { Router, Routes } from '@angular/router';
 
 @Component({
   selector: 'app-register',
@@ -19,7 +21,7 @@ export class RegisterComponent implements OnInit {
   })
 
 
-  constructor( private signupservice:SignupService) { }
+  constructor( private signupservice:SignupService, private route:Router) { }
 
   user1:User = {
     fullName: '',
@@ -31,26 +33,24 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-// Inicio de Función Validador Email
-  email = new FormControl('', [Validators.required, Validators.email]);
-
-  getErrorMessage() {
-    if (this.email.hasError('required')) {
-      return 'Debe ingresar un Email válido';
-    }
-
-    return this.email.hasError('email') ? 'Not a valid email' : '';
-  }
-// Fin de Función Validador Email
 
   registrarUser():void{
     this.user1 = this.formularioRegistro.value;
-    console.log(this.user1)
+    this.user1.cellPhone = String(this.user1.cellPhone);
     this.signupservice.save(this.user1).subscribe( resp => {
-      console.log(resp)
-    });
-    this.formularioRegistro.reset()
-    alert("Bienvenido "+ this.user1.fullName)
+      Swal.fire(
+        'Registro completado',
+        'Serás redirigido a la pantalla principal',
+        'success'
+      )
+      this.route.navigate(['/inicio'])
+    }, (error) =>{
+      Swal.fire(
+        'Error en el registro',
+        `Hubo un error al procesar su registro`,
+        'error'
+      )
+    })
   }
   
 }
